@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Audiowide&family=New+Amsterdam&family=Pacifico&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <div id="container">
+        <!-- Navigation -->
+        <nav>
+            <!-- Logo -->
+            <img class="logo" src="https://cdn.pixabay.com/photo/2022/08/22/02/05/logo-7402513_640.png" alt="No-Image">
+            <!-- Links -->
+            <ul>
+                <li class="list-items"><a class="links" href="#home"> Home</a></li>
+                <li class="list-items"><a class="links" href="#about"> About</a></li>
+                <li class="list-items"><a class="links" href="#skills"> Skills</a></li>
+                <li class="list-items"><a class="links" href="#contacts"> Contacts </a></li>
+            </ul>
+        </nav>
+        <!-- Home -->
+        <section id="home">
+            <div class="homeContent">
+                <h1 class="animate__animated animate__flash"id="userName">I'm Jithu <span id="lname">Johan</span></h1>
+                <p id="userDetails">This is my official portfolio website to describe all <br>
+                    Details and work experience in Web Development.
+                </p>
+                <a id="download" href="./Jithu Johan Jose.pdf" download="">Download CV</a>
+
+            </div>
+            <div data-aos="fade-right" class="homeImage">
+                <img id="shape1" class="group1" src="./images/shape1.png" alt="No-Images">
+                <img id="shape2" class="group1" src="./images/shape2.png" alt="No-Images">
+            </div>
+        </section>
+        <!-- About -->
+        <div id="about">
+            <section class="sectionHead">
+                <h2 class="mainHead">About Me</h2>
+                <span class="subhead">Introduction</span>
+            </section>
+            <div class="aboutBody">
+                <div data-aos="fade-right" class="aboutImage">
+                    <img class="img1"
+                        src="https://i0.wp.com/curiositygym.com/wp-content/uploads/2022/05/portfolio1.jpg?fit=1920%2C1080&ssl=1"
+                        alt="No-Image">
+                </div>
+                <div class="aboutContent">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat adipisci deleniti possimus
+                        reiciendis, pariatur temporibus illo. Qui consequatur reprehenderit pariatur repellat sint at
+                        asperiores dolores ut ea quod, sed voluptatum?</p>
+                    <div class="informations">
+                        <div class="infoBox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Jithu Johan</span>
+                        </div>
+                        <div class="infoBox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>8606578765</span>
+                        </div>
+                        <div class="infoBox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>Mails4johan@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Skills -->
+        <section id="skills">
+            <div class="sectionHead">
+                <h2 class="mainHead">Skill</h2>
+                <span class="subhead">My Skills</span>
+            </div>
+            <div class="skillContent">
+                <div data-aos="fade-right" class="progressBars">
+                    <div class="bars">
+                        <div class="barhead">HTML</div>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar htmlbar"></div>
+                        <div class="barpercent">89%</div>
+                    </div>
+                    <div class="bars">
+                        <div class="barhead">CSS</div>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar cssbar"></div>
+                        <div class="barpercent">93%</div>
+                    </div>
+                    <div class="bars">
+                        <div class="barhead">Javascript</div>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar  javascriptbar"></div>
+                        <div class="barpercent">79%</div>
+                    </div>
+                    <div class="bars">
+                        <div class="barhead">React</div>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar reactbar"></div>
+                        <div class="barpercent">91%</div>
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="skillImage">
+                    <img class="img1"
+                        src="https://www.billionbyte.com/wp-content/uploads/2021/07/k12-e-learning-content.png"
+                        alt="Image">
+                </div>
+            </div>
+        </section>
+        <!-- Contacts -->
+        <section id="contacts">
+            <div class="sectionHead">
+                <h2 class="mainHead">Contacts</h2>
+                <span class="subhead">My Contacts</span>
+                <div class="iconcollections">
+                    <!-- Linkedin -->
+                     <div class="icons">
+                        <a href="https://www.linkedin.com/in/jithujohan/"  target="_blank">
+                            <i class="fa-brands fa-linkedin-in brands"></i>
+                        </a>
+                     </div>
+                    <!-- Github -->
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/jithujohan/">
+                            <i class="fa-brands fa-github brands" target="_blank"></i>
+                        </a>
+                     </div>
+                    <!-- Instagram -->
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/jithujohan/" target="_blank">
+                            <i class="fa-brands fa-instagram brands"></i>
+                        </a>
+                     </div>
+                    <!-- Facebook -->
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/jithujohan/" target="_blank">
+                            <i class="fa-brands fa-facebook brands"></i>
+                        </a>
+                     </div>
+                    <!-- Twitter -->
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/jithujohan/" target="_blank">
+                            <i class="fa-brands fa-twitter brands"></i>
+                        </a>
+                     </div>
+                    <!-- WhatsApp -->
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/jithujohan/" target="_blank">
+                            <i class="fa-brands fa-whatsapp brands" target="_blank"></i>
+                        </a>
+                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+         <footer><p class="copyright">&copy; My Portfolio Website - June 2024, All Rights Reserved to &reg; Jithu Johan</p></footer>
+         <div class="icons uparrow">
+            <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+         </div>
+    </div>
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>
